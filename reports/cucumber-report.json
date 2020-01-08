@@ -1,0 +1,126 @@
+[
+  {
+    "description": "    As a coffee buyer\n    I want a basic machine that i can put a 10 kr coin in\n    and get a black cup of coffe back\n    because i crave caffeine.",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 746900
+            },
+            "line": 8,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:8"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 329200
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:19"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 352800
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 1108000
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:33"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 1109899
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:39"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "presses the start button",
+            "result": {
+              "status": "passed",
+              "duration": 224000
+            },
+            "line": 13,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:45"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves a cup of coffee",
+            "result": {
+              "status": "passed",
+              "duration": 312600
+            },
+            "line": 14,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:54"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2182405999
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-machine.feature"
+  }
+]
