@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name=";" tests="7" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-machine.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0007469">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0003292">
+        </testcase>
+        <testcase name="And that the machine has ground coffee" classname=";" time="0.0003528">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.001108">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.001109899">
+        </testcase>
+        <testcase name="And presses the start button" classname=";" time="0.000224">
+        </testcase>
+        <testcase name="Then the user recieves a cup of coffee" classname=";" time="0.0003126">
+        </testcase>
+    </testsuite>
+</testsuites>
