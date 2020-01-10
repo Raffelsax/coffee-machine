@@ -1,23 +1,573 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";" tests="7" failures="0" skipped="0">
+    <testsuite name=";" tests="9" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-machine.feature">
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/black-coffee.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0007469">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0004297">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.0003292">
+        <testcase name="And that water is available" classname=";" time="0.0001694">
         </testcase>
-        <testcase name="And that the machine has ground coffee" classname=";" time="0.0003528">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000378399">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.001108">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000204199">
         </testcase>
-        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.001109899">
+        <testcase name="When the user presses the button for a cup of black coffee" classname=";" time="0.000084499">
         </testcase>
-        <testcase name="And presses the start button" classname=";" time="0.000224">
+        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.000123">
         </testcase>
-        <testcase name="Then the user recieves a cup of coffee" classname=";" time="0.0003126">
+        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.000042599">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.0000938">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.000099399">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/black-coffee.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000283199">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0000861">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000077999">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000627">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of black coffee" classname=";" time="0.000033299">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.0000467">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000056801">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000042299">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";" time="0.000847801">
+            <failure message="AssertionError: Did you get coffee? You shouldn&apos;t. We didn&apos;t insert enough money!: expected &apos;here\&apos;s your coffee&apos; to not deeply equal &apos;here\&apos;s your coffee&apos;">AssertionError: Did you get coffee? You shouldn&apos;t. We didn&apos;t insert enough money!: expected &apos;here\&apos;s your coffee&apos; to not deeply equal &apos;here\&apos;s your coffee&apos;
+    at Function.assert.notDeepEqual (C:\Users\insik\Documents\New folder\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:235:36)
+    at createWorld.&lt;anonymous&gt; (C:\Users\insik\Documents\New folder\cucumber-exempel-2\step-definitions\coffee-machine.js:169:14)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/black-coffee.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000471">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0000416">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000696">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0001398">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of black coffee" classname=";" time="0.000037099">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000475">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000040399">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.00003">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";" time="0.000165201">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/black-coffee.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000482">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000070699">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000126801">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000048401">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of black coffee" classname=";" time="0.000025601">
+        </testcase>
+        <testcase name="And the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.000639">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000035999">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000022799">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";" time="0.0000758">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/black-coffee.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000046">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0000426">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000100401">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000666">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of black coffee" classname=";" time="0.000026301">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.000071399">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.000053199">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000038899">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.0000582">
+        </testcase>
+    </testsuite>
+    <testsuite name=";card-payment" tests="9" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/black-coffee.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";card-payment" time="0.0000565">
+        </testcase>
+        <testcase name="And that water is available" classname=";card-payment" time="0.0000691">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";card-payment" time="0.000080699">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";card-payment" time="0.000052501">
+        </testcase>
+        <testcase name="Given that the customer inserts a Card" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the card type is accepted" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there are enough money on the card" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the customer recieves a cup of black coffee." classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="10" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/coffee-milk.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000052999">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000041599">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000613">
+        </testcase>
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.0001883">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000588">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of coffee with milk" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee with milk." classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="10" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/coffee-milk.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000078801">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000083499">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0001064">
+        </testcase>
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.000081201">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000622">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of coffee with milk" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee with milk." classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="10" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/coffee-milk.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000431">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000046">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0001532">
+        </testcase>
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.000078101">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000050001">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of coffee with milk" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee with milk." classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="10" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/coffee-milk.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000051001">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0000922">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000077">
+        </testcase>
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.0000632">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000505">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of coffee with milk" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a &quot;byxknapp&quot; kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee with milk." classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="10" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/coffee-milk.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000546">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000080799">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000074">
+        </testcase>
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.0000812">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000065499">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of coffee with milk" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee with milk." classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";card-payment" tests="10" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/coffee-milk.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";card-payment" time="0.000068299">
+        </testcase>
+        <testcase name="And that water is available" classname=";card-payment" time="0.000049599">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";card-payment" time="0.0001463">
+        </testcase>
+        <testcase name="And that the machine has enough powdered milk" classname=";card-payment" time="0.000097301">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";card-payment" time="0.0000619">
+        </testcase>
+        <testcase name="Given that the customer inserts a Card" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the card type is accepted" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there are enough money on the card" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the customer recieves a cup of coffee with milk" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/hot-chocoalte.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000056001">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000038899">
+        </testcase>
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000176">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000050001">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of hot chocolate" classname=";" time="0.0000473">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.0000465">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.0000438">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000025399">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of hot chocolate." classname=";" time="0.0003273">
+            <failure message="AssertionError: Didn&apos;t get any coffee? You should. We inserted enough.: expected &apos;here\&apos;s your coffee&apos; to deeply equal &apos;here\&apos;s your chocolate&apos;">AssertionError: Didn&apos;t get any coffee? You should. We inserted enough.: expected &apos;here\&apos;s your coffee&apos; to deeply equal &apos;here\&apos;s your chocolate&apos;
+    at Function.assert.deepEqual (C:\Users\insik\Documents\New folder\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\insik\Documents\New folder\cucumber-exempel-2\step-definitions\coffee-machine.js:183:14)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/hot-chocoalte.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000577">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000042001">
+        </testcase>
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000080401">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000764">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of hot chocolate" classname=";" time="0.0000429">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.0000734">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000065399">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.0000456">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of hot chocolate." classname=";" time="0.0001676">
+            <failure message="AssertionError: Did you get coffee? You shouldn&apos;t. We didn&apos;t insert enough money!: expected &apos;here\&apos;s your coffee&apos; to not deeply equal &apos;here\&apos;s your coffee&apos;">AssertionError: Did you get coffee? You shouldn&apos;t. We didn&apos;t insert enough money!: expected &apos;here\&apos;s your coffee&apos; to not deeply equal &apos;here\&apos;s your coffee&apos;
+    at Function.assert.notDeepEqual (C:\Users\insik\Documents\New folder\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:235:36)
+    at createWorld.&lt;anonymous&gt; (C:\Users\insik\Documents\New folder\cucumber-exempel-2\step-definitions\coffee-machine.js:190:14)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/hot-chocoalte.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000061">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0000414">
+        </testcase>
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000070899">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000545">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of hot chocolate" classname=";" time="0.000025999">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000425">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000071801">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000042701">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of hot chocolate." classname=";" time="0.000095299">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/hot-chocoalte.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000419">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000038501">
+        </testcase>
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000095499">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000051699">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of hot chocolate" classname=";" time="0.000025001">
+        </testcase>
+        <testcase name="And the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.0001479">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000036899">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.000023401">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of hot chocolate." classname=";" time="0.0000448">
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/hot-chocoalte.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000052299">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.000053801">
+        </testcase>
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000130401">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000874">
+        </testcase>
+        <testcase name="When the user presses the button for a cup of hot chocolate" classname=";" time="0.0000788">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.0000467">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.000037999">
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";" time="0.0000299">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of hot chocolate." classname=";" time="0.000131101">
+            <failure message="AssertionError: Didn&apos;t get any coffee? You should. We inserted enough.: expected &apos;here\&apos;s your coffee&apos; to deeply equal &apos;here\&apos;s your chocolate&apos;">AssertionError: Didn&apos;t get any coffee? You should. We inserted enough.: expected &apos;here\&apos;s your coffee&apos; to deeply equal &apos;here\&apos;s your chocolate&apos;
+    at Function.assert.deepEqual (C:\Users\insik\Documents\New folder\cucumber-exempel-2\node_modules\chai\lib\chai\interface\assert.js:216:32)
+    at createWorld.&lt;anonymous&gt; (C:\Users\insik\Documents\New folder\cucumber-exempel-2\step-definitions\coffee-machine.js:183:14)
+    at processTicksAndRejections (internal/process/task_queues.js:75:11)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name=";card-payment" tests="9" failures="0" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/hot-chocoalte.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";card-payment" time="0.0000446">
+        </testcase>
+        <testcase name="And that water is available" classname=";card-payment" time="0.0000488">
+        </testcase>
+        <testcase name="And that the machine has enough chocolate powder" classname=";card-payment" time="0.0000934">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";card-payment" time="0.000063499">
+        </testcase>
+        <testcase name="Given that the customer inserts a Card" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And the card type is accepted" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And there are enough money on the card" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And presses the &quot;start&quot; button" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the customer recieves a cup of hot chocolate" classname=";card-payment">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";missing-water" tests="3" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/missing-stuff.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";missing-water" time="0.000042">
+        </testcase>
+        <testcase name="And there is no water" classname=";missing-water">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user gets no coffee" classname=";missing-water">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";missing-power" tests="2" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/missing-stuff.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is not plugged in" classname=";missing-power">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user gets no coffee" classname=";missing-power">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>
