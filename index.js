@@ -1,78 +1,133 @@
-//A class that defines how a coffemachine shall work
-class CoffeMachine {
+// A class that defines how a
+// coffee machine shall work
 
-    constructor() {
-        this.pluggedIn = false;
-        this.connectedToWater = false;
-        this.amountOfCoffee = 0;
-        this.numberOfCups = 0;
-        this.insertedMoney = 0;
-        this.coffeePerCup = 13;
-        this.pressedStart = false;
-        this.brewedCoffee = false;
-        this.dispensedCup = false;
-        this.dispensedCoffee = false;
+class CoffeeMachine {
+
+  constructor() {
+    this.pluggedIn = false;
+    this.connectedToWater = false;
+    this.numberOfCups = 0;
+    this.insertedMoney = 0;
+    // these two properties in gram
+    this.amountOfCoffee = 0;
+    this.amountOfMilkPowder = 0;
+    this.amountOfChocolatePowder = 0;
+    // some settings
+    this.coffeePerCup = 13; // in grams
+    this.milkPowderPerCup = 4;
+    this.chocolatePowderPerCup = 10;
+    this.waterPerCup = 2; // decilitres
+    this.pricePerCup = 10 // in SEK
+  }
+
+  // maintenance
+
+  plugIn() {
+    this.pluggedIn = true;
+  }
+
+  connectToWater() {
+    this.connectedToWater = true;
+  }
+
+  fillWithCoffee(amount) {
+    // add amount to total amount of 
+    // ground coffee in the machine
+    this.amountOfCoffee += amount;
+  }
+
+  fillWithMilkPowder(amount) {
+    // add amount to total amount of 
+    // milk powder in the machine
+    this.amountOfMilkPowder += amount;
+  }
+
+  fillWithChocolatePowder(amount) {
+    // add amount to total amount of 
+    // chocolate powder in the machine
+    this.amountOfChocolatePowder += amount;
+
+  }
+
+  fillWithCups(amount) {
+    // add amount of cups to the
+    // total number of cups in the machine
+    this.numberOfCups += amount;
+  }
+
+  // user choices
+
+  insertMoney(inserted) {
+    // add inserted money to total
+    // money inserted so far
+    if (typeof inserted !== 'number') {
+      throw (new Error('You must insert money not ' + nonMoney));
     }
+    this.insertedMoney += inserted;
+  }
 
-    plugIn() {
+  pressStartButton() {
+    // here we will need to call
+    // a number of internal methods
+    // (se below)
+    // in the correcto order
+    // and abort if not enough coffee etc
 
-        this.pluggedIn = true;
-
+    // FOR NOW JUST RETURN "here's your coffee"
+    // if there is enough money inserted
+    if (this.insertedMoney >= this.pricePerCup) {
+      return "here's your coffee";
     }
+  }
 
-    connectToWater() {
+  // internals
 
-        this.connectedToWater = true;
+  brewCoffee() {
+    // one cup at a time
+    // heat water... etc
+  }
 
-    }
+  brewCoffeeWithMilk() {
 
-    fillWithCoffee(amount) {
-        // amount in grams
-        amount = 13;
-        this.amountOfCoffee = amount;
+  }
 
+  brewHotChocolate() {
 
+  }
 
-    }
+  dispenseCup() {
 
-    fillWithCups(amount) {
-        // amount (number of cups)
-        amount = 2;
-        this.numberOfCups = amount;
-    }
+  }
 
-    insertMoney(inserted) {
+  dispenseCoffee() {
 
-        this.insertedMoney = 1;
+  }
 
-    }
+  dispenseCoffeeWithMilk() {
 
-    pressStartButton() {
+  }
 
-        this.pressedStart = true;
+  dispenseHotChocolate() {
 
-    }
+  }
 
-    brewCoffee() {
-        this.brewedCoffee = true;
+  checkIfEnoughCoffeeForACup() {
+    return this.amountOfCoffee >= this.coffeePerCup;
+  }
 
-    }
+  checkIfEnoughChocolatePowderForACup() {
+    return this.amountOfChocolatePowder >= this.chocolatePowderPerCup;
+  }
 
-    dispenseCup() {
-        this.dispensedCup = true;
+  checkIfEnoughMilkPowder() {
+    return this.amountOfMilkPowder >= this.milkPowderPerCup;
+  }
 
-    }
-
-    dispenseCoffee() {
-        this.dispensedCoffee = true;
-
-    }
+  checkIfAnyCupsLeft() {
+    return this.numberOfCups >= 1;
+  }
 
 }
 
-//create a coffe machine (an instance of the class CoffeeMachine)
-let myMachine = new CoffeMachine();
-
-//export the coffee machine to reach it in other files
-
-module.exports = CoffeMachine;
+// Export the CoffeeMachine class
+module.exports = CoffeeMachine;
