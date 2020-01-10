@@ -5,7 +5,7 @@ Feature:
   and get a cup of coffee with milk back
   because I crave caffeine and milk.
 
-  Background: Basic requirements for brewing black coffee
+  Background: Basic requirements for brewing coffee with milk
     Given that the machine is plugged in
     And that water is available
     And that the machine has enough ground coffee

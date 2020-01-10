@@ -5,7 +5,7 @@ Feature:
   and get a black cup of hot chocolate
   because I crave drinkable chocolate.
 
-  Background: Basic requirements for brewing black coffee
+  Background: Basic requirements for brewing hot chocolate
     Given that the machine is plugged in
     And that water is available
     And that the machine has enough chocolate powder
