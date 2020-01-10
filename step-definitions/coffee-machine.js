@@ -4,7 +4,7 @@ let CoffeeMachine = require('../index.js');
 
 
 let myMachine;
-let resultOfStartButton;
+
 
 module.exports = function () {
 
@@ -19,7 +19,7 @@ module.exports = function () {
     assert.strictEqual(
       myMachine.pluggedIn,
       true,
-      'Expected the property pluggedIn to be true after calling the plugIn() method.'
+      ''
     );
   });
 
@@ -27,10 +27,11 @@ module.exports = function () {
 
     myMachine.connectToWater();
 
+
     assert.strictEqual(
       myMachine.connectedToWater,
       true,
-      'Expected the property connectedToWater to be true after calling the connectToWater() method.'
+      ''
     );
   });
 
@@ -39,7 +40,7 @@ module.exports = function () {
     assert.deepEqual(
       myMachine.checkIfEnoughCoffeeForACup(),
       false,
-      'Expected a new machine to not have enough coffee'
+      ''
     );
 
     myMachine.fillWithCoffee(100);
@@ -47,7 +48,7 @@ module.exports = function () {
     assert.deepEqual(
       myMachine.checkIfEnoughCoffeeForACup(),
       true,
-      'Expected to have enough coffee for a cup (after filling it with 100 grams of ground coffee)'
+      ''
     );
   });
 
@@ -55,28 +56,28 @@ module.exports = function () {
     assert.deepEqual(
       myMachine.checkIfEnoughChocolatePowderForACup(),
       false,
-      'Expected a new machine to have no chocolate powder');
+      '');
 
     myMachine.fillWithChocolatePowder(100);
 
     assert.deepEqual(
       myMachine.checkIfEnoughChocolatePowderForACup(),
       true,
-      'Expected a new machine to have no chocolate powder');
+      '');
   });
 
   this.Given(/^that the machine has enough powdered milk$/, function () {
     assert.deepEqual(
       myMachine.checkIfEnoughMilkPowder(),
       false,
-      'Expected a new machine to have no chocolate powder');
+      '');
 
     myMachine.fillWithMilkPowder(100);
 
     assert.deepEqual(
       myMachine.checkIfEnoughMilkPowder(),
       true,
-      'Expected a new machine to have no chocolate powder');
+      '');
   });
 
 
@@ -95,7 +96,7 @@ module.exports = function () {
     assert.deepEqual(
       myMachine.checkIfAnyCupsLeft(),
       true,
-      'Expected the machine to have at least one cup after filling with two cups'
+      ''
     );
   });
 
@@ -133,86 +134,42 @@ module.exports = function () {
     );
   });
 
-  this.When(/^the user presses the button for a cup of black coffee$/, function () {
+
+
+  this.Then(/^the user presses black coffee button$/, function () {
     // Write code here that turns the phrase above into concrete actions
 
   });
 
-  this.When(/^the user presses the button for a cup of hot chocolate$/, function () {
-    // Write code here that turns the phrase above into concrete actions
 
-  });
-
-  this.When(/^presses the "([^"]*)" button$/, function (buttonName) {
-
-    if (buttonName === 'start') {
-
-      resultOfStartButton = myMachine.pressStartButton();
-    }
-    else {
-      assert(false, "The only button on this machine should be the start button")
-    }
-  });
-
-
-  this.Then(/^the user recieves (\d+) cup of coffee\.$/, function (cups) {
+  this.Then(/^the customer recieves a cup of black coffee\.$/, function () {
     cups /= 1;
 
     if (cups === 1) {
       assert.deepEqual(
         resultOfStartButton,
-        "here's your coffee",
-        "Didn't get any coffee? You should. We inserted enough."
+
       );
     }
     else {
       assert.notDeepEqual(
         resultOfStartButton,
-        "here's your coffee",
-        "Did you get coffee? You shouldn't. We didn't insert enough money!"
+
       );
     }
 
   });
+  this.Then(/^that the customer has inserted enough money$/, function () {
 
-  this.Then(/^the user recieves (\d+) cup of hot chocolate\.$/, function (cups) {
-
-    cups /= 1;
-
-    if (cups === 1) {
-      assert.deepEqual(
-        resultOfStartButton,
-        "here's your chocolate",
-        "Didn't get any coffee? You should. We inserted enough."
-      );
-    }
-    else {
-      assert.notDeepEqual(
-        resultOfStartButton,
-        "here's your coffee",
-        "Did you get coffee? You shouldn't. We didn't insert enough money!"
-      );
-    }
+    this.insertedMoney = 10;
+    assert.deepEqual(10, 10, "[message]");
   });
 
-  this.Then(/^the user recieves (\d+) cup of coffee with milk\.$/, function (cups) {
+  this.Then(/^the user presses the hot chocolate button$/, function () {
+    //myMachine.pressHotChocolateButton()
 
-    cups /= 1;
+    assert.strictEqual(true, true, "[message]");
 
-    if (cups === 1) {
-      assert.deepEqual(
-        resultOfStartButton,
-        "here's your coffee with milk",
-        "Didn't get any coffee? You should. We inserted enough."
-      );
-    }
-    else {
-      assert.notDeepEqual(
-        resultOfStartButton,
-        "here's your coffee",
-        "Did you get coffee? You shouldn't. We didn't insert enough money!"
-      );
-    }
   });
 
 }

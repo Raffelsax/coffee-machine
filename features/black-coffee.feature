@@ -12,23 +12,16 @@ Feature:
     And the machine has plastic cups
 
   Scenario Outline:
-    When the user presses the button for a cup of black coffee
-    And the user inserts a <money1> kr coin
+    When the user inserts a <money1> kr coin
     And the user inserts a <money2> kr coin
-    And presses the "start" button
+    And the user presses black coffee button
     Then the user recieves <cup> cup of coffee.
 
     Examples:
       | money1     | money2 | cup |
       | 10         | 0      | 1   |
-      | 5          | 5      | 0   |
+      | 5          | 5      | 1   |
       | 1          | 1      | 0   |
       | "byxknapp" | 1      | 0   |
       | 0          | 10     | 1   |
 
-  Scenario: Card payment
-    Given that the customer inserts a Card
-    And the card type is accepted
-    And there are enough money on the card
-    And presses the "start" button
-    Then the customer recieves a cup of black coffee.
