@@ -166,9 +166,14 @@ module.exports = function () {
   });
 
   this.Then(/^the user presses the hot chocolate button$/, function () {
-    //myMachine.pressHotChocolateButton()
+    myMachine.pressHotChocolateButton()
 
     assert.strictEqual(true, true, "[message]");
+
+  });
+
+  this.Then(/^the user recieves (\d+) cup of coffee\.$/, function () {
+    // Write code here that turns the phrase above into concrete actions
 
   });
 

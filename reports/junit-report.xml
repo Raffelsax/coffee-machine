@@ -1,199 +1,194 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name=";" tests="8" failures="0" skipped="1">
+    <testsuite name=";" tests="8" failures="1" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/black-coffee.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000448699">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0004299">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000116">
+        <testcase name="And that water is available" classname=";" time="0.000103001">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000351">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0002525">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000124101">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000184">
         </testcase>
-        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.0001235">
+        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.0001829">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.0000896">
+        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.0000594">
         </testcase>
-        <testcase name="And the user presses black coffee button" classname=";" time="0.0001078">
+        <testcase name="And the user presses black coffee button" classname=";" time="0.0000708">
         </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.000085">
+            <failure message="function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)">function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)</failure>
         </testcase>
     </testsuite>
-    <testsuite name=";" tests="8" failures="0" skipped="1">
+    <testsuite name=";" tests="8" failures="1" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/black-coffee.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000916">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000060401">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000105">
+        <testcase name="And that water is available" classname=";" time="0.0001628">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000086401">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000673">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.0000611">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000058099">
         </testcase>
-        <testcase name="When the user inserts a 5 kr coin" classname=";" time="0.000046399">
+        <testcase name="When the user inserts a 5 kr coin" classname=";" time="0.0000473">
         </testcase>
-        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.0000428">
+        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000039501">
         </testcase>
-        <testcase name="And the user presses black coffee button" classname=";" time="0.000027999">
+        <testcase name="And the user presses black coffee button" classname=";" time="0.0000304">
         </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";">
-            <skipped message="">
-            </skipped>
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.000010801">
+            <failure message="function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)">function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)</failure>
         </testcase>
     </testsuite>
-    <testsuite name=";" tests="8" failures="0" skipped="1">
+    <testsuite name=";" tests="8" failures="1" skipped="0">
         <properties>
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/black-coffee.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000529">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000576">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000085401">
+        <testcase name="And that water is available" classname=";" time="0.000061799">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000782">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000081301">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.0000597">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000859">
         </testcase>
-        <testcase name="When the user inserts a 1 kr coin" classname=";" time="0.0000755">
+        <testcase name="When the user inserts a 1 kr coin" classname=";" time="0.000071101">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000061">
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000407">
         </testcase>
-        <testcase name="And the user presses black coffee button" classname=";" time="0.0000311">
+        <testcase name="And the user presses black coffee button" classname=";" time="0.000028">
         </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";">
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";" time="0.0000195">
+            <failure message="function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)">function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="8" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/black-coffee.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000049101">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0000462">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000074">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000071599">
+        </testcase>
+        <testcase name="When the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.0012919">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000722">
+        </testcase>
+        <testcase name="And the user presses black coffee button" classname=";" time="0.000058899">
+        </testcase>
+        <testcase name="Then the user recieves 0 cup of coffee." classname=";" time="0.000011">
+            <failure message="function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)">function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="8" failures="1" skipped="0">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/black-coffee.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000095601">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0001055">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0001813">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000943">
+        </testcase>
+        <testcase name="When the user inserts a 0 kr coin" classname=";" time="0.0000496">
+        </testcase>
+        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.000066901">
+        </testcase>
+        <testcase name="And the user presses black coffee button" classname=";" time="0.0000335">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee." classname=";" time="0.0000091">
+            <failure message="function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)">function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)</failure>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-milk.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000791">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0000636">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000727">
+        </testcase>
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.000145801">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000399">
+        </testcase>
+        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.0000371">
+        </testcase>
+        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.0000327">
+        </testcase>
+        <testcase name="And the user presses the coffee with milk button" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee with milk." classname=";">
             <skipped message="">
             </skipped>
         </testcase>
     </testsuite>
-    <testsuite name=";" tests="8" failures="0" skipped="1">
+    <testsuite name=";" tests="9" failures="0" skipped="2">
         <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/black-coffee.feature">
+            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-milk.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000045">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0000592">
+        </testcase>
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000767">
+        </testcase>
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.0001046">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000051501">
+        </testcase>
+        <testcase name="When the user inserts a 5 kr coin" classname=";" time="0.000037899">
+        </testcase>
+        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000034899">
+        </testcase>
+        <testcase name="And the user presses the coffee with milk button" classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of coffee with milk." classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="9" failures="0" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-milk.feature">
             </property>
         </properties>
         <testcase name="Given that the machine is plugged in" classname=";" time="0.000044599">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000082799">
+        <testcase name="And that water is available" classname=";" time="0.0000939">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000099799">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000100399">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.0000593">
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.000052801">
         </testcase>
-        <testcase name="When the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.000689899">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000054601">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000417">
+        <testcase name="When the user inserts a 1 kr coin" classname=";" time="0.000036601">
         </testcase>
-        <testcase name="And the user presses black coffee button" classname=";" time="0.000029401">
-        </testcase>
-        <testcase name="Then the user recieves 0 cup of coffee." classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="8" failures="0" skipped="1">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/black-coffee.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000052201">
-        </testcase>
-        <testcase name="And that water is available" classname=";" time="0.0000619">
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.0000782">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000053901">
-        </testcase>
-        <testcase name="When the user inserts a 0 kr coin" classname=";" time="0.000040201">
-        </testcase>
-        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.000050101">
-        </testcase>
-        <testcase name="And the user presses black coffee button" classname=";" time="0.000027001">
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee." classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="9" failures="0" skipped="2">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-milk.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000601">
-        </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000049901">
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000053701">
-        </testcase>
-        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.0001839">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000043701">
-        </testcase>
-        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.000037799">
-        </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.000037201">
-        </testcase>
-        <testcase name="And the user presses the coffee with milk button" classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee with milk." classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="9" failures="0" skipped="2">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-milk.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000914">
-        </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000086401">
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000071801">
-        </testcase>
-        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.000054801">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000040699">
-        </testcase>
-        <testcase name="When the user inserts a 5 kr coin" classname=";" time="0.000033">
-        </testcase>
-        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000036999">
-        </testcase>
-        <testcase name="And the user presses the coffee with milk button" classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of coffee with milk." classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="9" failures="0" skipped="2">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-milk.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000765">
-        </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000077801">
-        </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000094">
-        </testcase>
-        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.000069601">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.0000456">
-        </testcase>
-        <testcase name="When the user inserts a 1 kr coin" classname=";" time="0.000085899">
-        </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000067101">
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000418">
         </testcase>
         <testcase name="And the user presses the coffee with milk button" classname=";">
             <skipped message="">
@@ -209,19 +204,19 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-milk.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000428">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000043101">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000065601">
+        <testcase name="And that water is available" classname=";" time="0.0000571">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000095701">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000126">
         </testcase>
-        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.000093601">
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.0000565">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000052499">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000065601">
         </testcase>
-        <testcase name="When the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.000161601">
+        <testcase name="When the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.0001233">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000435">
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000046501">
         </testcase>
         <testcase name="And the user presses the coffee with milk button" classname=";">
             <skipped message="">
@@ -237,19 +232,19 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-milk.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000716">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000073099">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.0000701">
+        <testcase name="And that water is available" classname=";" time="0.00006">
         </testcase>
-        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000068601">
+        <testcase name="And that the machine has enough ground coffee" classname=";" time="0.000083199">
         </testcase>
-        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.0000581">
+        <testcase name="And that the machine has enough powdered milk" classname=";" time="0.0000569">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000067901">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000062601">
         </testcase>
-        <testcase name="When the user inserts a 0 kr coin" classname=";" time="0.0000759">
+        <testcase name="When the user inserts a 0 kr coin" classname=";" time="0.0000455">
         </testcase>
-        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.000042501">
+        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.000081301">
         </testcase>
         <testcase name="And the user presses the coffee with milk button" classname=";">
             <skipped message="">
@@ -265,7 +260,7 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-coffee-powder" time="0.0001064">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-coffee-powder" time="0.000113601">
         </testcase>
         <testcase name="And pressed black coffee button" classname=";missing-coffee-powder">
             <skipped message="">
@@ -301,7 +296,7 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-plastic-cups-powder" time="0.000041199">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-plastic-cups-powder" time="0.000104501">
         </testcase>
         <testcase name="And pressed black coffee button" classname=";missing-plastic-cups-powder">
             <skipped message="">
@@ -337,7 +332,7 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-water" time="0.000043901">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-water" time="0.000051201">
         </testcase>
         <testcase name="And pressed black coffee button" classname=";missing-water">
             <skipped message="">
@@ -373,7 +368,7 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-witch-milk-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-coffee-powder" time="0.000041699">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-coffee-powder" time="0.0000599">
         </testcase>
         <testcase name="And pressed coffee with milk button" classname=";missing-coffee-powder">
             <skipped message="">
@@ -413,7 +408,7 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-witch-milk-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-milk-powder" time="0.0000411">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-milk-powder" time="0.0000424">
         </testcase>
         <testcase name="And pressed coffee with milk button" classname=";missing-milk-powder">
             <skipped message="">
@@ -453,7 +448,7 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-witch-milk-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-plastic-cups-powder" time="0.000043399">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-plastic-cups-powder" time="0.000058101">
         </testcase>
         <testcase name="And pressed coffee with milk button" classname=";missing-plastic-cups-powder">
             <skipped message="">
@@ -493,7 +488,7 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-witch-milk-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-water" time="0.000037901">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-water" time="0.000065401">
         </testcase>
         <testcase name="And pressed coffee with milk button" classname=";missing-water">
             <skipped message="">
@@ -529,43 +524,19 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocoalte.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000428">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.000129701">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000039399">
+        <testcase name="And that water is available" classname=";" time="0.0000674">
         </testcase>
-        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.0001755">
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000246999">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000052201">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000441">
         </testcase>
-        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.0000323">
+        <testcase name="When the user inserts a 10 kr coin" classname=";" time="0.0000336">
         </testcase>
-        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.0000325">
+        <testcase name="And the user inserts a 0 kr coin" classname=";" time="0.0000418">
         </testcase>
-        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.0000738">
-        </testcase>
-        <testcase name="Then the user recieves 1 cup of hot chocolate." classname=";">
-            <skipped message="">
-            </skipped>
-        </testcase>
-    </testsuite>
-    <testsuite name=";" tests="8" failures="0" skipped="1">
-        <properties>
-            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocoalte.feature">
-            </property>
-        </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000631">
-        </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000040701">
-        </testcase>
-        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000041201">
-        </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.0000469">
-        </testcase>
-        <testcase name="When the user inserts a 5 kr coin" classname=";" time="0.000034599">
-        </testcase>
-        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000033299">
-        </testcase>
-        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.0000351">
+        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.000091101">
         </testcase>
         <testcase name="Then the user recieves 1 cup of hot chocolate." classname=";">
             <skipped message="">
@@ -577,19 +548,43 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocoalte.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000537">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000689">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000064399">
+        <testcase name="And that water is available" classname=";" time="0.0000547">
         </testcase>
-        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000081199">
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000177599">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000058401">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0001714">
         </testcase>
-        <testcase name="When the user inserts a 1 kr coin" classname=";" time="0.0000424">
+        <testcase name="When the user inserts a 5 kr coin" classname=";" time="0.0000562">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000446">
+        <testcase name="And the user inserts a 5 kr coin" classname=";" time="0.000049799">
         </testcase>
-        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.000037699">
+        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.000055999">
+        </testcase>
+        <testcase name="Then the user recieves 1 cup of hot chocolate." classname=";">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";" tests="8" failures="0" skipped="1">
+        <properties>
+            <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocoalte.feature">
+            </property>
+        </properties>
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000564">
+        </testcase>
+        <testcase name="And that water is available" classname=";" time="0.0000438">
+        </testcase>
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.0000615">
+        </testcase>
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0001416">
+        </testcase>
+        <testcase name="When the user inserts a 1 kr coin" classname=";" time="0.0000485">
+        </testcase>
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.000034601">
+        </testcase>
+        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.0000422">
         </testcase>
         <testcase name="Then the user recieves 0 cup of hot chocolate." classname=";">
             <skipped message="">
@@ -601,19 +596,19 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocoalte.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000523">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000513">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.0000993">
+        <testcase name="And that water is available" classname=";" time="0.0000656">
         </testcase>
-        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000063101">
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.000178301">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.0000426">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.0000567">
         </testcase>
-        <testcase name="When the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.0001505">
+        <testcase name="When the user inserts a &quot;byxknapp&quot; kr coin" classname=";" time="0.000137">
         </testcase>
-        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000326">
+        <testcase name="And the user inserts a 1 kr coin" classname=";" time="0.0000679">
         </testcase>
-        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.0000295">
+        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.000051401">
         </testcase>
         <testcase name="Then the user recieves 0 cup of hot chocolate." classname=";">
             <skipped message="">
@@ -625,19 +620,19 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocoalte.feature">
             </property>
         </properties>
-        <testcase name="Given that the machine is plugged in" classname=";" time="0.000040201">
+        <testcase name="Given that the machine is plugged in" classname=";" time="0.0000794">
         </testcase>
-        <testcase name="And that water is available" classname=";" time="0.000057099">
+        <testcase name="And that water is available" classname=";" time="0.000081801">
         </testcase>
-        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.0000699">
+        <testcase name="And that the machine has enough chocolate powder" classname=";" time="0.0001054">
         </testcase>
-        <testcase name="And the machine has plastic cups" classname=";" time="0.000112599">
+        <testcase name="And the machine has plastic cups" classname=";" time="0.000067">
         </testcase>
-        <testcase name="When the user inserts a 0 kr coin" classname=";" time="0.000060501">
+        <testcase name="When the user inserts a 0 kr coin" classname=";" time="0.000039">
         </testcase>
-        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.0000412">
+        <testcase name="And the user inserts a 10 kr coin" classname=";" time="0.000042301">
         </testcase>
-        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.000035499">
+        <testcase name="And the user presses the hot chocolate button" classname=";" time="0.000065301">
         </testcase>
         <testcase name="Then the user recieves 1 cup of hot chocolate." classname=";">
             <skipped message="">
@@ -649,13 +644,13 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocolate-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-chocolate-powder" time="0.0000466">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-chocolate-powder" time="0.000065001">
         </testcase>
-        <testcase name="And the user presses the hot chocolate button" classname=";missing-chocolate-powder" time="0.0000332">
+        <testcase name="And the user presses the hot chocolate button" classname=";missing-chocolate-powder" time="0.000038099">
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";missing-chocolate-powder" time="0.0000372">
+        <testcase name="Given that the machine is plugged in" classname=";missing-chocolate-powder" time="0.0000375">
         </testcase>
-        <testcase name="And that water is available" classname=";missing-chocolate-powder" time="0.0000386">
+        <testcase name="And that water is available" classname=";missing-chocolate-powder" time="0.000034901">
         </testcase>
         <testcase name="And that the machine don´t have enough chocolate powder" classname=";missing-chocolate-powder">
             <skipped message="">
@@ -679,13 +674,13 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocolate-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-plastic-cups" time="0.000038199">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-plastic-cups" time="0.0000724">
         </testcase>
-        <testcase name="And the user presses the hot chocolate button" classname=";missing-plastic-cups" time="0.0000464">
+        <testcase name="And the user presses the hot chocolate button" classname=";missing-plastic-cups" time="0.000069499">
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";missing-plastic-cups" time="0.000117201">
+        <testcase name="Given that the machine is plugged in" classname=";missing-plastic-cups" time="0.0000823">
         </testcase>
-        <testcase name="And that water is available" classname=";missing-plastic-cups" time="0.0000476">
+        <testcase name="And that water is available" classname=";missing-plastic-cups" time="0.000053701">
         </testcase>
         <testcase name="And that the machine have enough chocolate powder" classname=";missing-plastic-cups">
             <skipped message="">
@@ -709,11 +704,11 @@
             <property name="URI" value="C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocolate-missing-stuff.feature">
             </property>
         </properties>
-        <testcase name="Given that the customer has inserted enough money" classname=";missing-water" time="0.000041101">
+        <testcase name="Given that the customer has inserted enough money" classname=";missing-water" time="0.0000412">
         </testcase>
-        <testcase name="And the user presses the hot chocolate button" classname=";missing-water" time="0.0000495">
+        <testcase name="And the user presses the hot chocolate button" classname=";missing-water" time="0.000075299">
         </testcase>
-        <testcase name="Given that the machine is plugged in" classname=";missing-water" time="0.000081701">
+        <testcase name="Given that the machine is plugged in" classname=";missing-water" time="0.000091">
         </testcase>
         <testcase name="And that water is not available" classname=";missing-water">
             <skipped message="">
