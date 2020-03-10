@@ -5,7 +5,7 @@
       {
         "id": ";",
         "keyword": "Scenario",
-        "line": 23,
+        "line": 22,
         "name": "",
         "steps": [
           {
@@ -14,11 +14,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 429700
+              "duration": 429900
             },
             "line": 9,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
             }
           },
           {
@@ -27,11 +27,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 169400
+              "duration": 103001
             },
             "line": 10,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
             }
           },
           {
@@ -40,11 +40,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 378399
+              "duration": 252500
             },
             "line": 11,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
             }
           },
           {
@@ -53,37 +53,24 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 204199
+              "duration": 184000
             },
             "line": 12,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user presses the button for a cup of black coffee",
-            "result": {
-              "status": "passed",
-              "duration": 84499
-            },
-            "line": 15,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:136"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 123000
+              "duration": 182900
             },
-            "line": 16,
+            "line": 15,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
@@ -92,24 +79,24 @@
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 42599
+              "duration": 59400
             },
-            "line": 17,
+            "line": 16,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "the user presses black coffee button",
             "result": {
               "status": "passed",
-              "duration": 93800
+              "duration": 70800
             },
-            "line": 18,
+            "line": 17,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:139"
             }
           },
           {
@@ -117,152 +104,13 @@
             "keyword": "Then ",
             "name": "the user recieves 1 cup of coffee.",
             "result": {
-              "status": "passed",
-              "duration": 99399
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:158"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1597230500
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 24,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 283199
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 86100
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 77999
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 62700
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user presses the button for a cup of black coffee",
-            "result": {
-              "status": "passed",
-              "duration": 33299
-            },
-            "line": 15,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:136"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 46700
-            },
-            "line": 16,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 56801
-            },
-            "line": 17,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 42299
+              "status": "failed",
+              "duration": 85000,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
             },
             "line": 18,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 0 cup of coffee.",
-            "result": {
-              "status": "failed",
-              "duration": 847801,
-              "error_message": "AssertionError: Did you get coffee? You shouldn't. We didn't insert enough money!: expected 'here\\'s your coffee' to not deeply equal 'here\\'s your coffee'\n    at Function.assert.notDeepEqual (C:\\Users\\insik\\Documents\\New folder\\cucumber-exempel-2\\node_modules\\chai\\lib\\chai\\interface\\assert.js:235:36)\n    at createWorld.<anonymous> (C:\\Users\\insik\\Documents\\New folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:169:14)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:158"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:175"
             }
           },
           {
@@ -270,7 +118,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1631968400
+              "duration": 1731938900
             },
             "hidden": true,
             "embeddings": [
@@ -280,7 +128,7 @@
               }
             ],
             "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -290,7 +138,7 @@
       {
         "id": ";",
         "keyword": "Scenario",
-        "line": 25,
+        "line": 23,
         "name": "",
         "steps": [
           {
@@ -299,11 +147,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 47100
+              "duration": 60401
             },
             "line": 9,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
             }
           },
           {
@@ -312,11 +160,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 41600
+              "duration": 162800
             },
             "line": 10,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
             }
           },
           {
@@ -325,11 +173,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 69600
+              "duration": 67300
             },
             "line": 11,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
             }
           },
           {
@@ -338,341 +186,50 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 139800
+              "duration": 58099
             },
             "line": 12,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user presses the button for a cup of black coffee",
+            "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 37099
+              "duration": 47300
             },
             "line": 15,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:136"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user inserts a 5 kr coin",
             "result": {
               "status": "passed",
-              "duration": 47500
+              "duration": 39501
             },
             "line": 16,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
+            "name": "the user presses black coffee button",
             "result": {
               "status": "passed",
-              "duration": 40399
+              "duration": 30400
             },
             "line": 17,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 30000
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 0 cup of coffee.",
-            "result": {
-              "status": "passed",
-              "duration": 165201
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:158"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1540105601
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 26,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 48200
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 70699
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 126801
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 48401
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user presses the button for a cup of black coffee",
-            "result": {
-              "status": "passed",
-              "duration": 25601
-            },
-            "line": 15,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:136"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a \"byxknapp\" kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 639000
-            },
-            "line": 16,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:117"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 35999
-            },
-            "line": 17,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 22799
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 0 cup of coffee.",
-            "result": {
-              "status": "passed",
-              "duration": 75800
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:158"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1557402400
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 27,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 46000
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 42600
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 100401
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 66600
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user presses the button for a cup of black coffee",
-            "result": {
-              "status": "passed",
-              "duration": 26301
-            },
-            "line": 15,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:136"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 71399
-            },
-            "line": 16,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 53199
-            },
-            "line": 17,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 38899
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:139"
             }
           },
           {
@@ -680,12 +237,13 @@
             "keyword": "Then ",
             "name": "the user recieves 1 cup of coffee.",
             "result": {
-              "status": "passed",
-              "duration": 58200
+              "status": "failed",
+              "duration": 10801,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
             },
-            "line": 19,
+            "line": 18,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:158"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:175"
             }
           },
           {
@@ -693,150 +251,23 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1538763601
+              "duration": 1624317000
             },
             "hidden": true,
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
             "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
         "tags": [],
         "type": "scenario"
       },
-      {
-        "id": ";card-payment",
-        "keyword": "Scenario",
-        "line": 29,
-        "name": "Card payment",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 56500
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 69100
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 80699
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 52501
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the customer inserts a Card",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 30
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the card type is accepted",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 31
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "there are enough money on the card",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 32
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 33,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the customer recieves a cup of black coffee.",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 34
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1559418599
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "",
-    "keyword": "Feature",
-    "line": 1,
-    "name": "",
-    "tags": [],
-    "uri": "C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/black-coffee.feature"
-  },
-  {
-    "description": "  As a coffee buyer\n  I want a machine that\n  I can put a 10 kr coin in\n  and get a cup of coffee with milk back\n  because I crave caffeine and milk.",
-    "elements": [
       {
         "id": ";",
         "keyword": "Scenario",
@@ -849,11 +280,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 52999
+              "duration": 57600
             },
             "line": 9,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
             }
           },
           {
@@ -862,11 +293,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 41599
+              "duration": 61799
             },
             "line": 10,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
             }
           },
           {
@@ -875,24 +306,11 @@
             "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 61300
+              "duration": 81301
             },
             "line": 11,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough powdered milk",
-            "result": {
-              "status": "passed",
-              "duration": 188300
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:68"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
             }
           },
           {
@@ -901,68 +319,64 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 58800
+              "duration": 85900
             },
-            "line": 13,
+            "line": 12,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user presses the button for a cup of coffee with milk",
+            "name": "the user inserts a 1 kr coin",
             "result": {
-              "status": "undefined"
+              "status": "passed",
+              "duration": 71101
             },
-            "line": 16
+            "line": 15,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
+            "name": "the user inserts a 1 kr coin",
             "result": {
-              "status": "skipped"
+              "status": "passed",
+              "duration": 40700
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses black coffee button",
+            "result": {
+              "status": "passed",
+              "duration": 28000
             },
             "line": 17,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:139"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves 1 cup of coffee with milk.",
+            "name": "the user recieves 0 cup of coffee.",
             "result": {
-              "status": "skipped"
+              "status": "failed",
+              "duration": 19500,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
             },
-            "line": 20,
+            "line": 18,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:198"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:175"
             }
           },
           {
@@ -970,11 +384,17 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1534524600
+              "duration": 1647736801
             },
             "hidden": true,
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
             "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -993,11 +413,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 78801
+              "duration": 49101
             },
             "line": 9,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
             }
           },
           {
@@ -1006,443 +426,11 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 83499
+              "duration": 46200
             },
             "line": 10,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 106400
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough powdered milk",
-            "result": {
-              "status": "passed",
-              "duration": 81201
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:68"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 62200
-            },
-            "line": 13,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user presses the button for a cup of coffee with milk",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 0 cup of coffee with milk.",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 20,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:198"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1535530600
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 26,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 43100
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 46000
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 153200
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough powdered milk",
-            "result": {
-              "status": "passed",
-              "duration": 78101
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:68"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 50001
-            },
-            "line": 13,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user presses the button for a cup of coffee with milk",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 0 cup of coffee with milk.",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 20,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:198"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1539815600
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 27,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 51001
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 92200
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 77000
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough powdered milk",
-            "result": {
-              "status": "passed",
-              "duration": 63200
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:68"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 50500
-            },
-            "line": 13,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user presses the button for a cup of coffee with milk",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a \"byxknapp\" kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:117"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 0 cup of coffee with milk.",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 20,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:198"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1538245001
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 28,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 54600
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 80799
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
             }
           },
           {
@@ -1455,20 +443,7 @@
             },
             "line": 11,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough powdered milk",
-            "result": {
-              "status": "passed",
-              "duration": 81200
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:68"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
             }
           },
           {
@@ -1477,354 +452,64 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 65499
+              "duration": 71599
             },
-            "line": 13,
+            "line": 12,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user presses the button for a cup of coffee with milk",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 17,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 1 cup of coffee with milk.",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 20,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:198"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
             "result": {
               "status": "passed",
-              "duration": 1535024800
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";card-payment",
-        "keyword": "Scenario",
-        "line": 30,
-        "name": "Card payment",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 68299
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 49599
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough ground coffee",
-            "result": {
-              "status": "passed",
-              "duration": 146300
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:37"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough powdered milk",
-            "result": {
-              "status": "passed",
-              "duration": 97301
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:68"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 61900
-            },
-            "line": 13,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the customer inserts a Card",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 31
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the card type is accepted",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 32
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "there are enough money on the card",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 33
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "skipped"
-            },
-            "line": 34,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the customer recieves a cup of coffee with milk",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 35
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1537432800
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      }
-    ],
-    "id": "",
-    "keyword": "Feature",
-    "line": 1,
-    "name": "",
-    "tags": [],
-    "uri": "C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/coffee-milk.feature"
-  },
-  {
-    "description": "  As a coffee buyer\n  I want a basic machine that\n  I can put a 10 kr coin in\n  and get a black cup of hot chocolate\n  because I crave drinkable chocolate.",
-    "elements": [
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 23,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 56001
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 38899
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough chocolate powder",
-            "result": {
-              "status": "passed",
-              "duration": 176000
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:54"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 50001
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user presses the button for a cup of hot chocolate",
-            "result": {
-              "status": "passed",
-              "duration": 47300
+              "duration": 1291900
             },
             "line": 15,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:141"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:118"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 10 kr coin",
+            "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 46500
+              "duration": 72200
             },
             "line": 16,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a 0 kr coin",
+            "name": "the user presses black coffee button",
             "result": {
               "status": "passed",
-              "duration": 43800
+              "duration": 58899
             },
             "line": 17,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 25399
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:139"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves 1 cup of hot chocolate.",
+            "name": "the user recieves 0 cup of coffee.",
             "result": {
               "status": "failed",
-              "duration": 327300,
-              "error_message": "AssertionError: Didn't get any coffee? You should. We inserted enough.: expected 'here\\'s your coffee' to deeply equal 'here\\'s your chocolate'\n    at Function.assert.deepEqual (C:\\Users\\insik\\Documents\\New folder\\cucumber-exempel-2\\node_modules\\chai\\lib\\chai\\interface\\assert.js:216:32)\n    at createWorld.<anonymous> (C:\\Users\\insik\\Documents\\New folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:183:14)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "duration": 11000,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
             },
-            "line": 19,
+            "line": 18,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:178"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:175"
             }
           },
           {
@@ -1832,7 +517,7 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1639070000
+              "duration": 1646495701
             },
             "hidden": true,
             "embeddings": [
@@ -1842,292 +527,7 @@
               }
             ],
             "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 24,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 57700
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 42001
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough chocolate powder",
-            "result": {
-              "status": "passed",
-              "duration": 80401
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:54"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 76400
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user presses the button for a cup of hot chocolate",
-            "result": {
-              "status": "passed",
-              "duration": 42900
-            },
-            "line": 15,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:141"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 73400
-            },
-            "line": 16,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 5 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 65399
-            },
-            "line": 17,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 45600
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 0 cup of hot chocolate.",
-            "result": {
-              "status": "failed",
-              "duration": 167600,
-              "error_message": "AssertionError: Did you get coffee? You shouldn't. We didn't insert enough money!: expected 'here\\'s your coffee' to not deeply equal 'here\\'s your coffee'\n    at Function.assert.notDeepEqual (C:\\Users\\insik\\Documents\\New folder\\cucumber-exempel-2\\node_modules\\chai\\lib\\chai\\interface\\assert.js:235:36)\n    at createWorld.<anonymous> (C:\\Users\\insik\\Documents\\New folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:190:14)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:178"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1647055801
-            },
-            "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";",
-        "keyword": "Scenario",
-        "line": 25,
-        "name": "",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "name": "that the machine is plugged in",
-            "result": {
-              "status": "passed",
-              "duration": 61000
-            },
-            "line": 9,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that water is available",
-            "result": {
-              "status": "passed",
-              "duration": 41400
-            },
-            "line": 10,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "that the machine has enough chocolate powder",
-            "result": {
-              "status": "passed",
-              "duration": 70899
-            },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:54"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the machine has plastic cups",
-            "result": {
-              "status": "passed",
-              "duration": 54500
-            },
-            "line": 12,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "name": "the user presses the button for a cup of hot chocolate",
-            "result": {
-              "status": "passed",
-              "duration": 25999
-            },
-            "line": 15,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:141"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 42500
-            },
-            "line": 16,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "the user inserts a 1 kr coin",
-            "result": {
-              "status": "passed",
-              "duration": 71801
-            },
-            "line": 17,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
-            "result": {
-              "status": "passed",
-              "duration": 42701
-            },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "name": "the user recieves 0 cup of hot chocolate.",
-            "result": {
-              "status": "passed",
-              "duration": 95299
-            },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:178"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1538510301
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2146,11 +546,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 41900
+              "duration": 95601
             },
             "line": 9,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
             }
           },
           {
@@ -2159,24 +559,24 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 38501
+              "duration": 105500
             },
             "line": 10,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough chocolate powder",
+            "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 95499
+              "duration": 181300
             },
             "line": 11,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:54"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
             }
           },
           {
@@ -2185,37 +585,443 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 51699
+              "duration": 94300
             },
             "line": 12,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user presses the button for a cup of hot chocolate",
+            "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 25001
+              "duration": 49600
             },
             "line": 15,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:141"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the user inserts a \"byxknapp\" kr coin",
+            "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 147900
+              "duration": 66901
             },
             "line": 16,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:117"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses black coffee button",
+            "result": {
+              "status": "passed",
+              "duration": 33500
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:139"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of coffee.",
+            "result": {
+              "status": "failed",
+              "duration": 9100,
+              "error_message": "function has 0 arguments, should have 1 (if synchronous or returning a promise) or 2 (if accepting a callback)"
+            },
+            "line": 18,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:175"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1659649700
+            },
+            "hidden": true,
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
+                "mime_type": "image/png"
+              }
+            ],
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/insik/Documents/New folder/coffee-machine/features/black-coffee.feature"
+  },
+  {
+    "description": "  As a coffee buyer\n  I want a machine that\n  I can put a 10 kr coin in\n  and get a cup of coffee with milk back\n  because I crave caffeine and milk.",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 79100
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 63600
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 72700
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough powdered milk",
+            "result": {
+              "status": "passed",
+              "duration": 145801
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 39900
+            },
+            "line": 13,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 37100
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 32700
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the coffee with milk button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of coffee with milk.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1538015801
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 45000
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 59200
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 76700
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough powdered milk",
+            "result": {
+              "status": "passed",
+              "duration": 104600
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 51501
+            },
+            "line": 13,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 37899
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 34899
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the coffee with milk button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of coffee with milk.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1556677001
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 44599
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 93900
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 100399
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough powdered milk",
+            "result": {
+              "status": "passed",
+              "duration": 52801
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 54601
+            },
+            "line": 13,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 36601
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
@@ -2224,49 +1030,172 @@
             "name": "the user inserts a 1 kr coin",
             "result": {
               "status": "passed",
-              "duration": 36899
+              "duration": 41800
             },
             "line": 17,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "the user presses the coffee with milk button",
             "result": {
-              "status": "passed",
-              "duration": 23401
+              "status": "undefined"
             },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
+            "line": 18
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves 0 cup of hot chocolate.",
+            "name": "the user recieves 0 cup of coffee with milk.",
             "result": {
-              "status": "passed",
-              "duration": 44800
+              "status": "undefined"
             },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:178"
-            }
+            "line": 19
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1551947500
+              "duration": 1553702900
             },
             "hidden": true,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 43101
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 57100
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough ground coffee",
+            "result": {
+              "status": "passed",
+              "duration": 126000
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough powdered milk",
+            "result": {
+              "status": "passed",
+              "duration": 56500
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:69"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 65601
+            },
+            "line": 13,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 123300
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 46501
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the coffee with milk button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of coffee with milk.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1572875499
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2285,11 +1214,11 @@
             "name": "that the machine is plugged in",
             "result": {
               "status": "passed",
-              "duration": 52299
+              "duration": 73099
             },
             "line": 9,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
             }
           },
           {
@@ -2298,24 +1227,37 @@
             "name": "that water is available",
             "result": {
               "status": "passed",
-              "duration": 53801
+              "duration": 60000
             },
             "line": 10,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough chocolate powder",
+            "name": "that the machine has enough ground coffee",
             "result": {
               "status": "passed",
-              "duration": 130401
+              "duration": 83199
             },
             "line": 11,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:54"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough powdered milk",
+            "result": {
+              "status": "passed",
+              "duration": 56900
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:69"
             }
           },
           {
@@ -2324,37 +1266,24 @@
             "name": "the machine has plastic cups",
             "result": {
               "status": "passed",
-              "duration": 87400
+              "duration": 62601
             },
-            "line": 12,
+            "line": 13,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "name": "the user presses the button for a cup of hot chocolate",
-            "result": {
-              "status": "passed",
-              "duration": 78800
-            },
-            "line": 15,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:141"
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
             "name": "the user inserts a 0 kr coin",
             "result": {
               "status": "passed",
-              "duration": 46700
+              "duration": 45500
             },
             "line": 16,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
@@ -2363,79 +1292,96 @@
             "name": "the user inserts a 10 kr coin",
             "result": {
               "status": "passed",
-              "duration": 37999
+              "duration": 81301
             },
             "line": 17,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:102"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "the user presses the coffee with milk button",
             "result": {
-              "status": "passed",
-              "duration": 29900
+              "status": "undefined"
             },
-            "line": 18,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
-            }
+            "line": 18
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the user recieves 1 cup of hot chocolate.",
+            "name": "the user recieves 1 cup of coffee with milk.",
             "result": {
-              "status": "failed",
-              "duration": 131101,
-              "error_message": "AssertionError: Didn't get any coffee? You should. We inserted enough.: expected 'here\\'s your coffee' to deeply equal 'here\\'s your chocolate'\n    at Function.assert.deepEqual (C:\\Users\\insik\\Documents\\New folder\\cucumber-exempel-2\\node_modules\\chai\\lib\\chai\\interface\\assert.js:216:32)\n    at createWorld.<anonymous> (C:\\Users\\insik\\Documents\\New folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:183:14)\n    at processTicksAndRejections (internal/process/task_queues.js:75:11)"
+              "status": "undefined"
             },
-            "line": 19,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:178"
-            }
+            "line": 19
           },
           {
             "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1632670600
+              "duration": 1537354900
             },
             "hidden": true,
-            "embeddings": [
-              {
-                "data": "iVBORw0KGgoAAAANSUhEUgAABVYAAAMACAYAAADPPjzCAAAACXBIWXMAABJ0AAASdAHeZh94AAAP+UlEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAvBg7AAAGVRpjWAAAAAElFTkSuQmCC",
-                "mime_type": "image/png"
-              }
-            ],
             "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
         "tags": [],
         "type": "scenario"
-      },
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-milk.feature"
+  },
+  {
+    "description": "  As a coffee buyer\n  I want a basic machine that\n  I can put a 10 kr coin in\n  and get a black cup of coffee back\n  because I crave caffeine.",
+    "elements": [
       {
-        "id": ";card-payment",
+        "id": ";missing-coffee-powder",
         "keyword": "Scenario",
-        "line": 29,
-        "name": "Card payment",
+        "line": 12,
+        "name": "Missing coffee powder",
         "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the customer has inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 113601
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "pressed black coffee button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
           {
             "arguments": [],
             "keyword": "Given ",
             "name": "that the machine is plugged in",
             "result": {
-              "status": "passed",
-              "duration": 44600
+              "status": "skipped"
             },
-            "line": 9,
+            "line": 13,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
             }
           },
           {
@@ -2443,44 +1389,216 @@
             "keyword": "And ",
             "name": "that water is available",
             "result": {
-              "status": "passed",
-              "duration": 48800
+              "status": "skipped"
             },
-            "line": 10,
+            "line": 14,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:26"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "that the machine has enough chocolate powder",
+            "name": "that the machine don´t have enough coffee",
             "result": {
-              "status": "passed",
-              "duration": 93400
+              "status": "undefined"
             },
-            "line": 11,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:54"
-            }
+            "line": 15
           },
           {
             "arguments": [],
             "keyword": "And ",
             "name": "the machine has plastic cups",
             "result": {
-              "status": "passed",
-              "duration": 63499
+              "status": "skipped"
             },
-            "line": 12,
+            "line": 16,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:85"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
             }
           },
           {
             "arguments": [],
+            "keyword": "Then ",
+            "name": "the customer gets no coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"Out of coffee powder\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1574632800
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";missing-plastic-cups-powder",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Missing plastic cups powder",
+        "steps": [
+          {
+            "arguments": [],
             "keyword": "Given ",
-            "name": "that the customer inserts a Card",
+            "name": "that the customer has inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 104501
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "pressed black coffee button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine have enough coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has no plastic cups",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the customer gets no coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"Out of plastic cups\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1546530701
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";missing-water",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Missing water",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the customer has inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 51201
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "pressed black coffee button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 29,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is not available",
             "result": {
               "status": "undefined"
             },
@@ -2489,7 +1607,7 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "the card type is accepted",
+            "name": "that the machine have enough coffee",
             "result": {
               "status": "undefined"
             },
@@ -2498,28 +1616,28 @@
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there are enough money on the card",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 32
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "name": "presses the \"start\" button",
+            "name": "the machine has plastic cups",
             "result": {
               "status": "skipped"
             },
-            "line": 33,
+            "line": 32,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:146"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "name": "the customer recieves a cup of hot chocolate",
+            "name": "the customer gets no coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"No water available\"",
             "result": {
               "status": "undefined"
             },
@@ -2530,11 +1648,11 @@
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1541153399
+              "duration": 1539552100
             },
             "hidden": true,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2547,34 +1665,34 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/hot-chocoalte.feature"
+    "uri": "C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-missing-stuff.feature"
   },
   {
-    "description": "  As a coffee buyer\n  I want a basic machine that\n  I can put a 10 kr coin in\n  and get a black cup of coffee back\n  because I crave caffeine.",
+    "description": "  As a coffee buyer\n  I want a basic machine that\n  I can put a 10 kr coin in\n  and get a black cup of coffee with milk back\n  because I crave caffeine and milk.",
     "elements": [
       {
-        "id": ";missing-water",
+        "id": ";missing-coffee-powder",
         "keyword": "Scenario",
-        "line": 8,
-        "name": "Missing water",
+        "line": 12,
+        "name": "Missing coffee powder",
         "steps": [
           {
             "arguments": [],
             "keyword": "Given ",
-            "name": "that the machine is plugged in",
+            "name": "that the customer has inserted enough money",
             "result": {
               "status": "passed",
-              "duration": 42000
+              "duration": 59900
             },
             "line": 9,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\step-definitions\\coffee-machine.js:11"
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "name": "there is no water",
+            "name": "pressed coffee with milk button",
             "result": {
               "status": "undefined"
             },
@@ -2582,48 +1700,32 @@
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "name": "the user gets no coffee",
-            "result": {
-              "status": "undefined"
-            },
-            "line": 11
-          },
-          {
-            "arguments": [],
-            "keyword": "After ",
-            "result": {
-              "status": "passed",
-              "duration": 1537735100
-            },
-            "hidden": true,
-            "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
-            }
-          }
-        ],
-        "tags": [],
-        "type": "scenario"
-      },
-      {
-        "id": ";missing-power",
-        "keyword": "Scenario",
-        "line": 13,
-        "name": "Missing power",
-        "steps": [
-          {
-            "arguments": [],
             "keyword": "Given ",
-            "name": "that the machine is not plugged in",
+            "name": "that the machine is plugged in",
             "result": {
-              "status": "undefined"
+              "status": "skipped"
             },
-            "line": 14
+            "line": 13,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
           },
           {
             "arguments": [],
-            "keyword": "Then ",
-            "name": "the user gets no coffee",
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine don´t have enough coffee",
             "result": {
               "status": "undefined"
             },
@@ -2631,14 +1733,386 @@
           },
           {
             "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine have enough milk powder",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the customer gets no coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"Out of coffee powder\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19
+          },
+          {
+            "arguments": [],
             "keyword": "After ",
             "result": {
               "status": "passed",
-              "duration": 1539298399
+              "duration": 1571718700
             },
             "hidden": true,
             "match": {
-              "location": "folder\\cucumber-exempel-2\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";missing-milk-powder",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Missing milk powder",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the customer has inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 42400
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "pressed coffee with milk button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 22,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 23,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine have enough coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine have enough milk powder",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 26,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the customer gets no coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 27
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"Out of milk powder\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 28
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1556116700
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";missing-plastic-cups-powder",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Missing plastic cups powder",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the customer has inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 58101
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "pressed coffee with milk button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 31,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine have enough coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine have enough milk powder",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has no plastic cups",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the customer gets no coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 36
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"Out of plastic cups\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 37
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1541295000
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";missing-water",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Missing water",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the customer has inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 65401
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "pressed coffee with milk button",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 40,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is not available",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 41
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine have enough coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 42
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the customer gets no coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 44
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"No water available\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 45
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1551017100
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
             }
           }
         ],
@@ -2651,6 +2125,970 @@
     "line": 1,
     "name": "",
     "tags": [],
-    "uri": "C:/Users/insik/Documents/New folder/cucumber-exempel-2/features/missing-stuff.feature"
+    "uri": "C:/Users/insik/Documents/New folder/coffee-machine/features/coffee-witch-milk-missing-stuff.feature"
+  },
+  {
+    "description": "  As a coffee buyer\n  I want a basic machine that\n  I can put a 10 kr coin in\n  and get a black cup of hot chocolate\n  because I crave drinkable chocolate.",
+    "elements": [
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 129701
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 67400
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough chocolate powder",
+            "result": {
+              "status": "passed",
+              "duration": 246999
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 44100
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 33600
+            },
+            "line": 15,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 41800
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the hot chocolate button",
+            "result": {
+              "status": "passed",
+              "duration": 91101
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:168"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of hot chocolate.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1551930500
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 68900
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 54700
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough chocolate powder",
+            "result": {
+              "status": "passed",
+              "duration": 177599
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 171400
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 56200
+            },
+            "line": 15,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 5 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 49799
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the hot chocolate button",
+            "result": {
+              "status": "passed",
+              "duration": 55999
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:168"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of hot chocolate.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1544967899
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 56400
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 43800
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough chocolate powder",
+            "result": {
+              "status": "passed",
+              "duration": 61500
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 141600
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 48500
+            },
+            "line": 15,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 34601
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the hot chocolate button",
+            "result": {
+              "status": "passed",
+              "duration": 42200
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:168"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of hot chocolate.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1543686400
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 51300
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 65600
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough chocolate powder",
+            "result": {
+              "status": "passed",
+              "duration": 178301
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 56700
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a \"byxknapp\" kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 137000
+            },
+            "line": 15,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:118"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 1 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 67900
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the hot chocolate button",
+            "result": {
+              "status": "passed",
+              "duration": 51401
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:168"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 0 cup of hot chocolate.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1571348499
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 79400
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 81801
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine has enough chocolate powder",
+            "result": {
+              "status": "passed",
+              "duration": 105400
+            },
+            "line": 11,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "passed",
+              "duration": 67000
+            },
+            "line": 12,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "the user inserts a 0 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 39000
+            },
+            "line": 15,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user inserts a 10 kr coin",
+            "result": {
+              "status": "passed",
+              "duration": 42301
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:103"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the hot chocolate button",
+            "result": {
+              "status": "passed",
+              "duration": 65301
+            },
+            "line": 17,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:168"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the user recieves 1 cup of hot chocolate.",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 2050673001
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocoalte.feature"
+  },
+  {
+    "description": "  As a coffee buyer\n  I want a basic machine that\n  I can put a 10 kr coin in\n  and get a black cup of coffee back\n  because I crave hot chocolate.",
+    "elements": [
+      {
+        "id": ";missing-chocolate-powder",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Missing chocolate powder",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the customer has inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 65001
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the hot chocolate button",
+            "result": {
+              "status": "passed",
+              "duration": 38099
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:168"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 37500
+            },
+            "line": 13,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 34901
+            },
+            "line": 14,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine don´t have enough chocolate powder",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the customer gets no chocolate",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"Out of chocolate powder\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1538851900
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";missing-plastic-cups",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Missing plastic cups",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the customer has inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 72400
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the hot chocolate button",
+            "result": {
+              "status": "passed",
+              "duration": 69499
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:168"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 82300
+            },
+            "line": 21,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is available",
+            "result": {
+              "status": "passed",
+              "duration": 53701
+            },
+            "line": 22,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:26"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine have enough chocolate powder",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 23
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has no plastic cups",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 24
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the customer gets no coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"Out of plastic cups\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 26
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1580753600
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "id": ";missing-water",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Missing water",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the customer has inserted enough money",
+            "result": {
+              "status": "passed",
+              "duration": 41200
+            },
+            "line": 9,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:162"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the user presses the hot chocolate button",
+            "result": {
+              "status": "passed",
+              "duration": 75299
+            },
+            "line": 10,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:168"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "that the machine is plugged in",
+            "result": {
+              "status": "passed",
+              "duration": 91000
+            },
+            "line": 29,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:11"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that water is not available",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 30
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "that the machine have enough chocolate powder",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the machine has plastic cups",
+            "result": {
+              "status": "skipped"
+            },
+            "line": 32,
+            "match": {
+              "location": "folder\\coffee-machine\\step-definitions\\coffee-machine.js:86"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "the customer gets no coffee",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "the display shows \"No water available\"",
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1564024101
+            },
+            "hidden": true,
+            "match": {
+              "location": "folder\\coffee-machine\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "",
+    "tags": [],
+    "uri": "C:/Users/insik/Documents/New folder/coffee-machine/features/hot-chocolate-missing-stuff.feature"
   }
 ]
