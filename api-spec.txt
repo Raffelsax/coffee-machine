@@ -1,4 +1,9 @@
-Enkel variant av kaffemaskin som kan servera svart kaffe, kaffe med mjölk samt varm choklad. Varje dryck kostar 10 kr. Önskad dryck väljs genom att trycka på en av tre knappar, saknas ingredienser för önskad dryck meddelas detta i displayen innan kunden ombeds betala. Den har ett myntinkast som endast accepterar 10kr-mynt och 5kr-mynt som betalning. Den har även en enkel display för att kunna meddela kunden om olika saker, som att tillräcklig betalning erlagts eller om det uppstår problem med kortbetalning.
+Enkel variant av kaffemaskin som kan servera svart kaffe, kaffe med mjölk samt varm choklad. 
+Varje dryck kostar 10 kr. Önskad dryck väljs genom att trycka på en av tre knappar,
+saknas ingredienser för önskad dryck meddelas detta i displayen innan kunden ombeds betala. 
+Den har ett myntinkast som endast accepterar 10kr-mynt och 5kr-mynt som betalning. 
+Den har även en enkel display för att kunna meddela kunden om olika saker, 
+som att tillräcklig betalning erlagts eller om det uppstår problem med kortbetalning.
 
 
 Class: CoffeeMachine
